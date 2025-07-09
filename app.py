@@ -28,7 +28,7 @@ login_url = f"https://www.linkedin.com/oauth/v2/authorization?{urllib.parse.urle
 st.markdown(f"[Connect with LinkedIn]({login_url})")
 
 # Step 2: Handle redirect and fetch profile
-query_params = st.experimental_get_query_params()
+query_params = st.query_params
 if "code" in query_params:
     code = query_params["code"][0]
     # Exchange code for access token
