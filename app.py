@@ -12,7 +12,7 @@ st.title("Resume Analyzer with Gemini AI")
 # LinkedIn OAuth settings
 LINKEDIN_CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID", "YOUR_CLIENT_ID")
 LINKEDIN_CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET", "YOUR_CLIENT_SECRET")
-REDIRECT_URI = "http://localhost:8501/"
+REDIRECT_URI = "https://airesumeanalyzer814.streamlit.app/"
 SCOPE = "r_liteprofile r_emailaddress"
 
 # Step 1: Show LinkedIn login button
