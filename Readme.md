@@ -34,30 +34,3 @@ You can deploy this to Streamlit Cloud for free:
 
 ## 📬 Contact
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/) or raise issues on the GitHub repo.
-
----
-
-## How to Fix
-
-1. **Add your GitHub remote:**
-   ```sh
-   git remote add origin https://github.com/BuNnYS814/AI_RESUME_ANALYZER.git
-   ```
-
-2. **Push your code:**
-   ```sh
-   git push -u origin main
-   ```
-
----
-
-If you already added the remote and still see this error, you can remove and re-add it:
-```sh
-git remote remove origin
-git remote add origin https://github.com/BuNnYS814/AI_RESUME_ANALYZER.git
-git push -u origin main
-```
-
----
-
-Let me know if you need more help!
