@@ -1,1 +1,4 @@
 google-generativeai
+streamlit
+PyMuPDF
+scikit-learn
